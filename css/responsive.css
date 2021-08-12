@@ -1,0 +1,207 @@
+/* Laptops device */
+/* --------------- */
+@media(min-width: 1200px) and (max-width: 1500px){
+    .slider-content .offset-xl-1 {
+        margin-left: 0px;
+    }
+    .effort-area .access-img {
+        margin-left: -40px;
+    }
+
+}
+
+/* Normal desktop device */
+/* --------------------------- */
+@media (min-width:992px) and (max-width:1199px){
+    .btn {
+        padding: 10px 25px;
+    }
+    .slider {
+        min-height: 700px;
+    }
+     .slider-content .offset-xl-1 {
+        margin-left: 0px;
+    }
+    img.slider-img {
+        width: 100%;
+    }
+    .effort-area .access-img {
+        margin-left: 0;
+        margin-top: 40px;
+    }
+    access-img {
+        margin-left: 0px;
+    }
+    .effort-area {
+        padding-top: 0px;
+    }
+    .priching-box {
+        padding: 15px;
+    }
+    .easy-access-area {
+        margin-top: 50px;
+    }
+    .footer-menu {
+        margin-bottom: 50px;
+    }
+   
+
+
+
+
+
+}
+/* tablet or medium device */
+/* ------------------------------- */
+@media (max-width:992px){
+    ul#navbarNav {
+        position: absolute;
+        right: 0px;
+        top: 100%;
+        background: rgb(255, 255, 255);
+        width: 100%;
+        margin: auto;
+        text-align: start;
+        border-top: 3px solid #00c867;
+        border-radius: 10px;
+        border-bottom: 3px solid #00c867;
+    }
+    ul.nav2{
+        border-top: 3px solid #ff5b5b !important;
+        border-radius: 10px;
+        border-bottom: 3px solid #ff5b5b !important;
+    }
+    .main-menu ul li {
+        border-bottom: 1px solid rgba(128, 128, 128, 0.445);
+        display: block;
+        width: 90%;
+    }
+    .main-menu ul li a {
+        font-size: 18px;
+        padding: 15px 0;
+    }
+    .navbar-light .navbar-toggler {
+        color: #00c867;
+        border-color: rgba(0,0,0,.1);
+    }
+    .navbar-light .toggler2{
+        color:#ff5b5b;
+        border-color: transparent;
+    }
+}
+@media (max-width:991px){
+    .how-work {
+        padding-bottom: 40px;
+        padding-top: 0;
+    }
+    .effort-area {
+        padding-top: 0px;
+    }
+    .access-img {
+        margin-left:0px;
+    }
+    .access-img img{
+        width: 80%;
+    }
+    .easy-access-area {
+        margin-top: 70px;
+    }
+    .software-feature .section-title {
+        margin-bottom: 0px;
+    }
+    .priching-area {
+        padding-top: 50px;
+    }
+    .section-title h2 {
+        font-size: 36px;
+    }
+    .footer-menu ul li a {
+        padding: 5px 0px;
+    }
+    .footer-bottom ul li {
+        margin-left: 20px;
+    }
+    .footer-bottom ul li a{
+        font-size: 12px;
+    }
+    .footer-bottom span {
+        font-size: 12px;
+    }
+
+
+}
+
+/* small or mobile device 320px */
+/* ------------------------------- */
+@media (max-width:768px) {
+  
+    .slider-text h2 {
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
+    .slider-img {
+        width: 100%;
+    }
+    .how-work {
+        padding-top: 30px;
+    }
+    .how-work .feature-item {
+        padding: 20px 30px;
+    }
+    .access-text h2 {
+        font-size: 30px;
+    }
+    .access-text {
+        margin-top: 0px !important;
+    }
+    .access-text {
+        margin-top: 0px !important;
+        text-align: center;
+    }
+    .brand {
+        display: none;
+    }
+    .brand-logo {
+        padding-top: 0;
+    }
+    .email-submit-area {
+        padding: 50px 0px;
+    }
+    .email-submit-area .section-title h2 {
+        font-size: 18px;
+    }
+    .E-submit input {
+        padding: 15px 20px;
+        margin:auto;
+        width: 90%;
+    }
+    .E-submit .btn {
+        padding: 5px 30px;
+        margin-top: 20px;
+    }
+    .social-link.mb-md-5 {
+        margin-bottom: 30px;
+    }
+    .footer-bottom {
+        display: block !important;
+        text-align: center;
+    }
+    .footer-bottom ul {
+        display: none;
+    }
+    .footer-menu h3 {
+        margin-bottom: 5px;
+    }
+    .footer-menu ul {
+        margin-top: 30px;
+    }
+    footer {
+        padding-top: 40px;
+    }
+    .section-title2 h2 {
+        font-size: 25px;
+    }
+
+  
+    
+}
